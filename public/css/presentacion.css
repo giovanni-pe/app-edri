@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Verde brillante */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.login {
+    float: right;
+    margin-top: 10px; /* Espacio adicional en la parte superior */
+}
+
+.header {
+    background-color: #3cb371; /* Verde brillante */
+    color: #fff;
+    padding: 10px 20px; /* Aumenta el padding para que se vea mejor */
+    overflow: hidden; /* Asegura que el encabezado contenga correctamente los elementos flotantes */
+}
+
+.login a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #2e8b57; /* Verde más oscuro */
+    transition: background-color 0.3s ease;
+}
+
+
+.login a:hover {
+    background-color: #3e9969; /* Verde más claro */
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.resumen {
+    flex: 1;
+    background-color: #98fb98; /* Verde claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s ease;
+}
+
+.imagen {
+    flex: 1;
+    padding-top: 200px;
+    padding-left: 200px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.titulo {
+    color: #228b22; /* Verde oscuro */
+}
+
+.subtitulo {
+    color: #228b22; /* Verde oscuro */
+}
+
+.equipo {
+    color: #556b2f; /* Verde oliva */
+}
+
+.beneficios {
+    list-style-type: none;
+    padding: 0;
+}
+
+.beneficios li {
+    margin-bottom: 5px;
+}
+
+.footer {
+    background: linear-gradient(to right, #7eff7e, #32cd32);
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
